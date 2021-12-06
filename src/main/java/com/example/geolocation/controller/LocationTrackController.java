@@ -60,3 +60,12 @@ public class LocationTrackController {
         return "hello";
     }
 }
+
+
+/*
+download geolite2 database from
+https://www.maxmind.com/en/accounts/645021/geoip/downloads
+unwrap it get mmdb file to read in the future
+and then to get public ip from request use https://checkip.amazonaws.com
+
+ */
